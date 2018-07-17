@@ -70,10 +70,28 @@
         <div class="column">
          <div class="card">
           <div class="header">
-            <div class="avatar">
-              <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
-            </div>
+            <div class="media">
+              <div class="media-left">
+                <div class="card-header-icon">
+                  <div class="avatar">
+                <figure class="image is-58x58">
+                  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
+                </figure>
+               </div>
+               </div>
+               </div>
+               <div class="media-content">
+                  <p class="title is-4">John Smith</p>
+                  <p class="subtitle is-6">@johnsmith</p>
+                </div>
           </div>
+          </div>
+          <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="Placeholder image">
+                    </figure>
+                </div>
+          
           <div class="card-body">
             <div class="user-meta has-text-centered">
               <h3 class="username">Helen Miller</h3>
@@ -106,6 +124,10 @@ body {
   height: 100%;
   width: 100%;
 }
+.image-circle img {
+  border-radius: 50%;
+}
+
 
 .columns {
   margin-top: 0;
@@ -125,7 +147,7 @@ body {
 }
 .section .card .header {
   height: 120px;
-  background: #7F00FF;
+  background: rgb(255, 255, 255);
 }
 .section .card .header .avatar {
   width: 80px;
@@ -136,9 +158,9 @@ body {
 .section .card .header .avatar img {
   display: block;
   border-radius: 50%;
-  position: absolute;
-  bottom: -42px;
-  border: 4px solid white;
+  
+  
+  border: 4px solid rgb(225, 0, 255);
 }
 .section .card .card-body {
   padding: 30px;
