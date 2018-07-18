@@ -87,22 +87,43 @@
           </div>
           </div>
           <div class="card-image">
-                    <figure class="image is-4by3">
+                    <figure class="image is-96x96">
                         <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="Placeholder image">
                     </figure>
                 </div>
           
-          <div class="card-body">
-            <div class="user-meta has-text-centered">
-              <h3 class="username">Helen Miller</h3>
-              <h5 class="position">Accountant</h5>
-            </div>
-            <div class="user-bio has-text-centered">
-              <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
-            </div>
-            <div class="action has-text-centered">
-              <a href="#" class="button is-small">View profile</a>
-            </div>
+          
+            <div class="card-content">
+                    <div class="level is-mobile">
+                        <div class="level-left">
+                            <div class="level-item has-text-centered">
+                                <a href="">
+                                    <i class="material-icons">favorite_border</i>
+                                </a>
+                            </div>
+                            <div class="level-item has-text-centered">
+                                <div>
+                                    <a href="">
+                                        <i class="material-icons">chat_bubble_outline</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <p>
+                            <strong>32 Likes</strong>
+                        </p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                        <a>@bulmaio</a>.
+                        <a href="#">#css</a>
+                        <a href="#">#responsive</a>
+                        <br>
+                        <time datetime="2018-1-1">12:02 PM - 1 May 2018</time>
+                    </div>
+                </div>
+            
           </div>
         </div>
       </div>
