@@ -1,338 +1,186 @@
-<<template>
-<section class="hero is-fullheight is-primary is-bold">
-  <div class="hero-body justify-center">
+</<template>
+    <div class="section">
+  <div class="container">
     <div class="columns">
-         <div class="section">
-         <div class="box bookmark box-0">
+      <div class="column is-half">
         <div class="card">
-                <div class="header">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img src="https://source.unsplash.com/random/96x96" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4">John Smith</p>
-                            <p class="subtitle is-6">@johnsmith</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="level is-mobile">
-                        <div class="level-left">
-                            <div class="level-item has-text-centered">
-                                <a href="">
-                                    <i class="material-icons">favorite_border</i>
-                                </a>
-                            </div>
-                            <div class="level-item has-text-centered">
-                                <div>
-                                    <a href="">
-                                        <i class="material-icons">chat_bubble_outline</i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content">
-                        <p>
-                            <strong>32 Likes</strong>
-                        </p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                        <a>@bulmaio</a>.
-                        <a href="#">#css</a>
-                        <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2018-1-1">11:09 PM - 1 Jan 2018</time>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <div class="columns is-mobile">
-                        <div class="column is-11">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input is-medium" type="text" placeholder="Add a comment . . .">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column has-text-centered">
-                            <button class="button">
-                                <i class="material-icons">more_horiz</i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <div class="columns">
-            <div class="section">
-         <div class="box bookmark box-0">
-            <div class="card">
-                <div class="header">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img src="https://source.unsplash.com/random/96x96" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4">John Smith</p>
-                            <p class="subtitle is-6">@johnsmith</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="level is-mobile">
-                        <div class="level-left">
-                            <div class="level-item has-text-centered">
-                                <a href="">
-                                    <i class="material-icons">favorite_border</i>
-                                </a>
-                            </div>
-                            <div class="level-item has-text-centered">
-                                <div>
-                                    <a href="">
-                                        <i class="material-icons">chat_bubble_outline</i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content">
-                        <p>
-                            <strong>32 Likes</strong>
-                        </p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                        <a>@bulmaio</a>.
-                        <a href="#">#css</a>
-                        <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2018-1-1">11:09 PM - 1 Jan 2018</time>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <div class="columns is-mobile">
-                        <div class="column is-11">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input is-medium" type="text" placeholder="Add a comment . . .">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column has-text-centered">
-                            <button class="button">
-                                <i class="material-icons">more_horiz</i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-             <div class="columns">
-            <div class="section">
-         <div class="box bookmark box-0">
+          <div class="header">
             
-            <div class="card">
-                <div class="header">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img src="https://source.unsplash.com/random/96x96" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4">John Smith</p>
-                            <p class="subtitle is-6">@johnsmith</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                        <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="level is-mobile">
-                        <div class="level-left">
-                            <div class="level-item has-text-centered">
-                                <a href="">
-                                    <i class="material-icons">favorite_border</i>
-                                </a>
-                            </div>
-                            <div class="level-item has-text-centered">
-                                <div>
-                                    <a href="">
-                                        <i class="material-icons">chat_bubble_outline</i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content">
-                        <p>
-                            <strong>32 Likes</strong>
-                        </p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                        <a>@bulmaio</a>.
-                        <a href="#">#css</a>
-                        <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2018-1-1">12:02 PM - 1 May 2018</time>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <div class="columns is-mobile">
-                        <div class="column is-11">
-                            <div class="field">
-                                <div class="control">
-                                    <input class="input is-medium" type="text" placeholder="Add a comment . . .">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column has-text-centered">
-                            <button class="button">
-                                <i class="material-icons">more_horiz</i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+             
+               <div class="avatar">
+                 <div class="circle">
+                
+              <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+     xml:space="preserve">  
+    <circle cx="50" cy="50" r="40" />
+  </svg>
+                
+             
+                 </div>
             </div>
+          </div>
+          <div class="card-body">
+            <div class="user-meta has-text-centered">
+              <h1 class="username">Helen Miller</h1>
+              <h2 class="position">Accountant</h2>
             </div>
+           </div>
+        
+           <div class="column">
+               <div class="card">
+          <div class="header">
+            
+             
+               <div class="avatar">
+                 <div class="circle">
+                
+              <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+     xml:space="preserve">  
+    <circle cx="50" cy="50" r="40" />
+  </svg>
+                
+             
+                 </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="user-meta has-text-centered">
+              <h1 class="username">Helen Miller</h1>
+              <h2 class="position">Accountant</h2>
+            </div>
+           </div>
+           
+        </div>
+    </div>
+    </div>
+    </div> 
     </div>
     </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-</section>
-</template>>
+</div>
+</template>
+>
 
-<style scoped>
-.body-columns {
-    margin-top: 10vh;
+<style lang="scss" scoped>
+body {
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
-.card {
-    margin-top: 5rem;
+.circle {
+  position: relative;
+  width: 185px;
+  height: 100%;
+  
 }
-.card .header {
-    padding: 5px 10px;
+.circle svg {
+  fill: none;
+  stroke: #8a3ab9;
+  stroke-linecap: round;
+  stroke-width: 3;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: stroke-draw 6s ease-out infinite alternate;
 }
-.card-footer .columns {
-    width: 100%;
-}
-.card-footer .columns input {
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-}
-.card-footer .columns .column:last-child {
-    display: flex;
-    align-items: center;
-}
-.card-footer .columns .column:last-child button {
-    border: none;
-}
-.footer {
-    margin-top: 10vh;
-    padding: 2rem 1.5rem;
-}
-
-/* @media screen and (max-width: 786px){
-    .navbar {
-        justify-content: space-between;
-    }
-} */
-.image-circle img {
+.circle img {
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 145px;
+  height:150px;
   border-radius: 50%;
 }
+@keyframes stroke-draw {
+  from {
+    stroke: #8a3ab9;
+    stroke-dasharray: 1;
+  }
+  to {
+    stroke: #cd486b;
+    transform: rotate(180deg);
+    stroke-dasharray: 8;
+  }
+}
+$primary: #7F00FF;
+$secondary: #00D1B2;
+$section: #ededed;
+$muted: #999;
 
-.bookmark article {
-  margin: 1rem 0;
-}
-.bookmark h2 {
-  color: #363636;
-}
-
-.button, .link {
-  transition: 400ms ease;
-}
-
-#home-btn {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 999;
-  color: whitesmoke;
-  transition: 400ms ease;
-}
-
-.footer {
-  box-shadow: inset 2px 2px 4px #999;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.list-clean {
-  list-style: none;
-}
-.list-clean .icon {
-  margin-right: 12px;
-}
-
-.tile.is-child.box {
-  background-color: whitesmoke;
+body {
   position: relative;
-  transition: 400ms;
-}
-.tile.is-child.box:hover {
-  box-shadow: 1px 2px 3px #00d1b2, 0 0 0 1px #009e86;
-}
-.tile.is-child.box .link {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-}
-.tile.is-child.box .image-link {
-  background: #fff;
-}
-.tile.is-child.box .image-link img {
-  opacity: 1;
-  transition: 300ms ease;
-}
-.tile.is-child.box .image-link img:hover {
-  opacity: 0.64;
+  height: 100%;
+  width: 100%;
 }
 
-.tile.is-child.notification {
-  transition: 400ms;
+.columns {
+  margin-top: 0;
 }
-.tile.is-child.notification:hover {
-  box-shadow: 1px 2px 3px #00d1b2, 0 0 0 1px #009e86;
+ .card-body {
+      padding: 30px;
+      .user-meta {
+        padding-top: 20px;
+        .username {
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .position {
+          font-size: 90%;
+          color: $primary;
+        }
+      }
+    }
+    .user-bio {
+      padding-top: 8px;
+      font-size: 92%;
+      color: $muted;
+    }
+    .action {
+      padding-top: 20px;
+      .button {
+        padding: 16px 20px 16px 20px;
+        background: $primary;
+        border-color: $primary;
+        color: white;
+        border-radius: 100px;
+        transition: opacity .3s;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  .section {
+  background-color: $section;
+  min-height: 100vh;
+  position: relative;
 }
-.tile.is-child.notification .link {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+.card {
+    border-radius: 6px;
+    overflow:hidden;
+    max-width: 300px;
+    max-height: 380px;
+    margin: 0 auto;
 }
+ .header {
+      height: 150px;
+      background: white;
+}
+.avatar {
+        width: 65%;
+        
+        position: relative;
+        margin: 0 auto;
+}
+
 
 </style>
 >
- 

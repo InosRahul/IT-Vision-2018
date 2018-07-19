@@ -27,7 +27,13 @@
         <div class="card">
           <div class="header">
             <div class="avatar">
+              <div class="story">
               <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
+                  <svg viewbox="0 0 100 100">
+                      <circle cx="50" cy="50" r="40"/>
+                   </svg>
+                      </div>
+              
             </div>
           </div>
           <div class="card-body">
@@ -50,79 +56,28 @@
       <div class="column">
         <div class="card">
           <div class="header">
-            <div class="avatar">
-              <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
-            </div>
-          </div>
+            
+              <div class="story">
+               <img src="https://goo.gl/zYrXX3" alt="">
+                  <svg viewbox="0 0 100 100">
+                      <circle cx="50" cy="50" r="40"/>
+                   </svg>
+                      </div>
+              
+                
+              </div>  
+            
+          
           <div class="card-body">
             <div class="user-meta has-text-centered">
               <h3 class="username">Helen Miller</h3>
               <h5 class="position">Accountant</h5>
             </div>
-            <div class="user-bio has-text-centered">
-              <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
-            </div>
-            <div class="action has-text-centered">
-              <a href="#" class="button is-small">View profile</a>
-            </div>
+            
           </div>
         </div>
         <div class="column">
-         <div class="card">
-          <div class="header">
-            <div class="media">
-              <div class="media-left">
-                <div class="card-header-icon">
-                  <div class="avatar">
-                <figure class="image is-58x58">
-                  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
-                </figure>
-               </div>
-               </div>
-               </div>
-               <div class="media-content">
-                  <p class="title is-4">John Smith</p>
-                  <p class="subtitle is-6">@johnsmith</p>
-                </div>
-          </div>
-          </div>
-          <div class="card-image">
-                    <figure class="image is-96x96">
-                        <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="Placeholder image">
-                    </figure>
-                </div>
-          
-          
-            <div class="card-content">
-                    <div class="level is-mobile">
-                        <div class="level-left">
-                            <div class="level-item has-text-centered">
-                                <a href="">
-                                    <i class="material-icons">favorite_border</i>
-                                </a>
-                            </div>
-                            <div class="level-item has-text-centered">
-                                <div>
-                                    <a href="">
-                                        <i class="material-icons">chat_bubble_outline</i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="content">
-                        <p>
-                            <strong>32 Likes</strong>
-                        </p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-                        <a>@bulmaio</a>.
-                        <a href="#">#css</a>
-                        <a href="#">#responsive</a>
-                        <br>
-                        <time datetime="2018-1-1">12:02 PM - 1 May 2018</time>
-                    </div>
-                </div>
+         
             
           </div>
         </div>
@@ -140,88 +95,90 @@
 >
 
 <style lang="scss" scoped>
+$primary: #7F00FF;
+$secondary: #00D1B2;
+$section: #ededed;
+$muted: #999;
+
 body {
   position: relative;
   height: 100%;
   width: 100%;
 }
-.image-circle img {
-  border-radius: 50%;
-}
-
 
 .columns {
   margin-top: 0;
 }
 
 .section {
-  background-color: #ededed;
+  background-color: $section;
   min-height: 100vh;
   position: relative;
-}
-.section .card {
-  border-radius: 6px;
-  overflow: hidden;
-  max-width: 300px;
-  max-height: 380px;
-  margin: 0 auto;
-}
-.section .card .header {
-  height: 120px;
-  background: rgb(255, 255, 255);
-}
-.section .card .header .avatar {
-  width: 80px;
-  height: 100%;
-  position: relative;
-  margin: 0 auto;
-}
-.section .card .header .avatar img {
-  display: block;
-  border-radius: 50%;
-  
-  
-  border: 4px solid rgb(225, 0, 255);
-}
-.section .card .card-body {
-  padding: 30px;
-}
-.section .card .card-body .user-meta {
-  padding-top: 20px;
-}
-.section .card .card-body .user-meta .username {
-  font-size: 18px;
-  font-weight: 600;
-}
-.section .card .card-body .user-meta .position {
-  font-size: 90%;
-  color: #7F00FF;
-}
-.section .card .user-bio {
-  padding-top: 8px;
-  font-size: 92%;
-  color: #999;
-}
-.section .card .action {
-  padding-top: 20px;
-}
-.section .card .action .button {
-  padding: 16px 20px 16px 20px;
-  background: #7F00FF;
-  border-color: #7F00FF;
-  color: white;
-  border-radius: 100px;
-  transition: opacity .3s;
-}
-.section .card .action .button:hover {
-  opacity: 0.7;
+  .card {
+    border-radius: 6px;
+    overflow:hidden;
+    max-width: 300px;
+    max-height: 380px;
+    margin: 0 auto;
+    .header {
+      height: 120px;
+      background: #e3e3e3;
+      .avatar {
+        width: 80px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        img {
+          display: block;
+          border-radius: 50%;
+          position: absolute;
+          bottom: -42px;
+          border: 4px;
+        }
+      }
+    }
+    .card-body {
+      padding: 30px;
+      .user-meta {
+        padding-top: 20px;
+        .username {
+          font-size: 26px;
+          font-weight: 600;
+        }
+        .position {
+          font-size: 24;
+          color: $primary;
+        }
+      }
+    }
+    .user-bio {
+      padding-top: 8px;
+      font-size: 92%;
+      color: $muted;
+    }
+    .action {
+      padding-top: 20px;
+      .button {
+        padding: 16px 20px 16px 20px;
+        background: $primary;
+        border-color: $primary;
+        color: white;
+        border-radius: 100px;
+        transition: opacity .3s;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
 }
 
+//Css Ninja link
 .link-button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #7F00FF;
+  background: $primary;
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -229,21 +186,48 @@ body {
   justify-content: center;
   align-items: center;
   transition: all .4s;
+  img {
+    width: 32px;
+    height: 32px;
+    display: block;
+  }
+  &:hover {
+    transform: scale(1.1) rotate(180deg);
+    background: $secondary;
+  }
 }
-.link-button img {
-  width: 32px;
-  height: 32px;
-  display: block;
+.story {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100px;
+  height:100px;
+  overflow:hidden;
 }
-.link-button:hover {
-  transform: scale(1.1) rotate(180deg);
-  background: #00D1B2;
+.story img {
+  width:70px;
+  border-radius:50%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
 }
-.bookmark article {
-  margin: 1rem 0;
+.story svg {
+  fill:none;
+  stroke:#8a3ab8;
+  stroke-width:3px;
+  stroke-dasharray:1;
+  stroke-dashoffset:0;
+  stroke-linecap:round;
+  animation:loading 3000ms infinite alternate;
 }
-.bookmark h2 {
-  color: #363636;
+@keyframes loading {
+  100% {
+    stroke:#cd476b;
+    stroke-dasharray:10;
+    transform:rotate(180 deg);
+  }
 }
 
 
