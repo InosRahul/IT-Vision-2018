@@ -1,100 +1,105 @@
 </<template>
 <section>
- <div class="section">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-half">
-        <div class="card">
-          <div class="header">
-            <div class="avatar">
-              <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="user-meta has-text-centered">
-              <h3 class="username">Helen Miller</h3>
-              <h5 class="position">Accountant</h5>
-            </div>
-            <div class="user-bio has-text-centered">
-              <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
-            </div>
-            <div class="action has-text-centered">
-              <a href="#" class="button is-small">View profile</a>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-        <div class="card">
-          <div class="header">
-            <div class="avatar">
-              <div class="story">
-              <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="">
-                  <svg viewbox="0 0 100 100">
-                      <circle cx="50" cy="50" r="40"/>
-                   </svg>
-                      </div>
-              
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="user-meta has-text-centered">
-              <h3 class="username">Helen Miller</h3>
-              <h5 class="position">Accountant</h5>
-            </div>
-            <div class="user-bio has-text-centered">
-              <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
-            </div>
-            <div class="action has-text-centered">
-              <a href="#" class="button is-small">View profile</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="columns">
-
-      <div class="column">
-        <div class="card">
-          <div class="header">
-            
-              <div class="story">
-               <img src="https://goo.gl/zYrXX3" alt="">
-                  <svg viewbox="0 0 100 100">
-                      <circle cx="50" cy="50" r="40"/>
-                   </svg>
-                      </div>
-              
-                
-              </div>  
-            
-          
-          <div class="card-body">
-            <div class="user-meta has-text-centered">
-              <h3 class="username">Helen Miller</h3>
-              <h5 class="position">Accountant</h5>
-            </div>
-            
-          </div>
-        </div>
-        <div class="column">
-         
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  <a href="https://cssninja.io" class="link-button">
-    <img src="https://image.ibb.co/dR3ZRm/cssninja_icon_white.png">
-  </a>
+<div class="section">
+<div class="container">
+<div class="container">
+<div class="columns">
+<div class="column is-half">
+<div class="card">
+<div class="header">
+<div class="circle">
+  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+     xml:space="preserve">  
+    <circle cx="50" cy="50" r="40" />
+  </svg>
 </div>
+</div>              
+<div class="card-body">
+            <div class="user-meta has-text-centered">
+              <h3 class="username">Helen Miller</h3>
+              <h5 class="position">Accountant</h5>
+            </div>
+            <div class="user-bio has-text-centered">
+              <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+            </div>
+          </div>
+    </div>
+    </div> 
+  <div class="column">
+<div class="card">
+<div class="header">
+<div class="circle">
+  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+     xml:space="preserve">  
+    <circle cx="50" cy="50" r="40" />
+  </svg>
+</div>
+</div>              
+<div class="card-body">
+            <div class="user-meta has-text-centered">
+              <h3 class="username">Helen Miller</h3>
+              <h5 class="position">Accountant</h5>
+            </div>
+            <div class="user-bio has-text-centered">
+              <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+            </div>
+          </div>
+    </div>
+    </div>
+
+
+    </div>
+  </div>           
+  </div>
+  </div>
+</div>  
 </section>
 </template>
 >
 
 <style lang="scss" scoped>
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+}
+.circle{
+  position:relative;
+  width:140px;
+  height:140px;
+  svg{
+    fill:none;
+    stroke:#8a3ab9;
+    stroke-linecap: round;
+    stroke-width:3;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+    animation: stroke-draw 6s ease-out infinite alternate; 
+    // animation: stroke-draw 6s cubic-bezier(0.77, 0, 0.175, 1) infinite alternate; 
+  }
+  img{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:100px;
+    border-radius:50%;
+  }
+}
+@keyframes stroke-draw {
+  from{
+    stroke:#8a3ab9;
+    stroke-dasharray: 1;
+  }
+  to{
+    stroke:#cd486b;
+    transform:rotate(180degs);
+    stroke-dasharray: 8;
+  }
+}
 $primary: #7F00FF;
 $secondary: #00D1B2;
 $section: #ededed;
@@ -133,7 +138,7 @@ body {
           border-radius: 50%;
           position: absolute;
           bottom: -42px;
-          border: 4px;
+          
         }
       }
     }
@@ -142,11 +147,11 @@ body {
       .user-meta {
         padding-top: 20px;
         .username {
-          font-size: 26px;
+          font-size: 18px;
           font-weight: 600;
         }
         .position {
-          font-size: 24;
+          font-size: 90%;
           color: $primary;
         }
       }
@@ -172,64 +177,5 @@ body {
     }
   }
 }
-
-//Css Ninja link
-.link-button {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: $primary;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all .4s;
-  img {
-    width: 32px;
-    height: 32px;
-    display: block;
-  }
-  &:hover {
-    transform: scale(1.1) rotate(180deg);
-    background: $secondary;
-  }
-}
-.story {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  width:100px;
-  height:100px;
-  overflow:hidden;
-}
-.story img {
-  width:70px;
-  border-radius:50%;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-}
-.story svg {
-  fill:none;
-  stroke:#8a3ab8;
-  stroke-width:3px;
-  stroke-dasharray:1;
-  stroke-dashoffset:0;
-  stroke-linecap:round;
-  animation:loading 3000ms infinite alternate;
-}
-@keyframes loading {
-  100% {
-    stroke:#cd476b;
-    stroke-dasharray:10;
-    transform:rotate(180 deg);
-  }
-}
-
-
 </style>
 >
