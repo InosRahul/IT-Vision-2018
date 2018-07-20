@@ -68,6 +68,7 @@ body{
 }
 .circle{
   position:relative;
+
   width:140px;
   height:140px;
   svg{
@@ -105,11 +106,7 @@ $secondary: #00D1B2;
 $section: #ededed;
 $muted: #999;
 
-body {
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
+
 
 .columns {
   margin-top: 0;
@@ -126,8 +123,11 @@ body {
     max-height: 380px;
     margin: 0 auto;
     .header {
-      height: 120px;
-      background: #e3e3e3;
+      display: flex;
+      height: 150px;
+      background: #ffffff;
+      justify-content: center;
+      align-items: center;
       .avatar {
         width: 80px;
         height: 100%;
