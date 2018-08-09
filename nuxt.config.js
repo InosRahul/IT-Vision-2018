@@ -45,7 +45,7 @@ module.exports = {
     '@nuxtjs/bulma',
     '@nuxtjs/pwa'
   ],
-
+  
   
   /*
   ** Build configuration

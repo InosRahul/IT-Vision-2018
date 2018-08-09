@@ -1,4 +1,4 @@
-</<template>
+<<template>
 <section>
   <div class="section">
   <div class="container">

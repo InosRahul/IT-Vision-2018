@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">Vision 2k18</a>
@@ -24,5 +24,6 @@
         </div>
       </div>
     </nav>
-  </div>
+  
+  </section>
 </template>
