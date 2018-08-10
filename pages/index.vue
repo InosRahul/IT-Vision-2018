@@ -2,16 +2,26 @@
   <section class="container">
     <div>
       <logo/>
-      <h1 class="title">
+      <h2 class="title">
         Vision 2K18
-      </h1>
-      <h2 class="subtitle">
-        IT Vision 2K18
       </h2>
+      <h4 class="subtitle">
+        IT Vision 2K18
+      </h4>
+      
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
+          <nuxt-link class="button--green" target="_blank" to="/events">Events</nuxt-link>
+      
+      
+          <nuxt-link class="button--grey" target="_blank" to="/team">Team</nuxt-link>
+        </div>
+        <div class="links">
+          <nuxt-link class="button--green" target="_blank" to="/sponsers">Sponsers</nuxt-link>
+        
+        
+          <nuxt-link class="button--grey" target="_blank" to="/contact">Contact</nuxt-link>
+        </div>
+        
     </div>
   </section>
 </template>
@@ -57,5 +67,9 @@ export default {
 .links
 {
   padding-top: 15px;
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 </style>
