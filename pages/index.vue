@@ -11,6 +11,7 @@
 <section>
   <div class="bt1">
 <nuxt-link class="button--green" to="/events">Explore Events</nuxt-link>
+<nuxt-link class="button--green" to="/team">Our Team</nuxt-link>
 </div>
 </section>
     </section>
