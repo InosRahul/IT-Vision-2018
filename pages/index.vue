@@ -14,12 +14,12 @@
 <nuxt-link class="button--green" to="/team" style="margin-left: 10px;">Our Team</nuxt-link>
 </div>
 </section>
-<section>
-  <div class="bt1">
-<nuxt-link class="button--green" to="/test1">CountDown</nuxt-link>
 
-</div>
-</section>
+<div>
+    <no-ssr>
+      <flip-countdown deadline="2018-09-19 00:00:00"></flip-countdown>
+    </no-ssr>
+  </div>
     </section>
 </template>>
 
@@ -142,3 +142,10 @@ span {
 }
 </style>
 >
+<script>
+  import FlipCountdown from 'vue2-flip-countdown'
+
+  export default {
+      components: { FlipCountdown }
+  }
+</script>
