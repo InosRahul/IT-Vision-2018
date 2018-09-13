@@ -50,6 +50,16 @@ module.exports = {
     '@nuxtjs/dotenv',
     '@nuxtjs/pwa'
   ],
+  manifest: {
+    name: 'IT VISION 2018',
+    
+    display: "standalone",
+    orientation: "portrait",
+    background_color: "#f5f5f5",
+    theme_color: "#29434d"
+   
+  },
+  
   oneSignal: {
     init: {
       appId: 'YOUR_APP_ID',
