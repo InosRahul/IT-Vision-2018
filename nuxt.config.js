@@ -59,6 +59,9 @@ module.exports = {
     theme_color: "#29434d"
    
   },
+  meta:{
+    name: "IT VISION 2018",
+  },
   
   oneSignal: {
     init: {
