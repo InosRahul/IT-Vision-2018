@@ -11,9 +11,13 @@
     <div class="outer animate-3">
       <div class="inner animate-2">
         <div class="within animate-1">
-          <i class="far fa-circle animate-0"></i>
-          <i class="fas fa-ban animate-0"></i>
+           <nuxt-link class="navbar-item" target="_blank" to="/">Home</nuxt-link>
+          
+          
+          
+           
         </div>
+         
       </div>
     </div>
   </label>
@@ -234,7 +238,7 @@ $red: #f70048;
 .main {
   background: #111;
   
-  color: $nephritis;
+  color: $red;
   align-items: center;
   justify-content: center;
   
@@ -272,14 +276,14 @@ $red: #f70048;
       margin: 0.25rem;
       border-radius: 100%;
       padding: 0.75rem;
-      border: 1rem dashed $nephritis;
+      border: 1rem dashed $red;
       height: initial;
       
       &.animate-1{
-        border-color: darken($nephritis, 20%);
+        border-color: darken($red, 20%);
       }
       &.animate-2{
-        border-color: darken($nephritis, 30%);
+        border-color: darken($red, 30%);
       }
       &.animate-3 {
         border-style: solid;
@@ -290,12 +294,12 @@ $red: #f70048;
     &:before {
       @include animate;
       position: absolute;
-      content: '';
+      content: 'whatshot';
       display: flex;     
       height: 100%;
       width: 100%;
       border-radius: 100%;
-      background: $nephritis;
+      background: $red;
       filter: blur(20px);
       opacity: 0;
     }
@@ -310,7 +314,7 @@ $red: #f70048;
     
     .fa-circle {
       @include animate;
-      color: $green;
+      color: $red;
       opacity: 1;
     }
   }
@@ -329,29 +333,29 @@ $red: #f70048;
   }
   input[type=checkbox].hidden-input:checked + label.wrap {
     div {
-      border-color: $red;
+      border-color: $green;
       height: initial;
-      transform: rotate(90deg);
+      transform: rotate(360deg);
       
       .animate-0{
         animation: bounce0 0.3s;
       }
       &.animate-1{
         animation: bounce1 0.3s;
-        border-color: darken($red, 20%);
+        border-color: darken($green, 20%);
       }
       &.animate-2{
         animation: bounce2 0.3s;
-        border-color: darken($red, 30%);
+        border-color: darken($green, 30%);
       }
     }
     
     &:before {
-      background: $red;
+      background: $green;
     }
     .fa-ban {
       @include animate;
-      color: $red;
+      color: $green;
       opacity: 1;
     }
     .fa-circle {

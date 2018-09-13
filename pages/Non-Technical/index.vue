@@ -1,15 +1,38 @@
 <<template>
-    <div>
-        <Navigation />
-        <nuxt />
-        </div>
-</template>>
+  <section class="hero">
+    
+  <span><nuxt-link class="link1" to="/space"><img src="~assets/4.jpg"></nuxt-link></span>
 
-<script>
-import Navigation from '@/components/Navigation.vue'
-export default {
-  components: {
-    Navigation
-  }
+ <section class="hero">
+  <span><nuxt-link class="link1" to="/space"><img src="~assets/5.jpg"></nuxt-link></span>
+</section>
+ <section class="hero">
+  <span><nuxt-link class="link1" to="/space"><img src="~assets/6.jpg"></nuxt-link></span>
+</section>
+</section>
+
+</template>>
+<style lang="scss" scoped>
+
+section {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 80px;
+
 }
-</script>
+.hero{
+  background-image: url(~assets/teambg.jpg);
+}
+
+span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+</style>

@@ -15,6 +15,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' },
+      { rel:"stylesheet", href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"}
       
       
     ]
@@ -42,10 +44,21 @@ module.exports = {
   */
   modules: [
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
+
+    '@nuxtjs/onesignal',
     '@nuxtjs/bulma',
+    '@nuxtjs/dotenv',
     '@nuxtjs/pwa'
   ],
-  
+  oneSignal: {
+    init: {
+      appId: 'YOUR_APP_ID',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+          disable: true
+      }
+    }
+  },
   
   /*
   ** Build configuration

@@ -3,8 +3,10 @@
   <div class="section">
   <div class="container">
   <div class="container">
+    <div class="positions">
+      
   <div class="columns">
-  <div class="column is-half">
+  <div class="column">
   <div class="card">
   <div class="header">
   <div class="circle">
@@ -26,7 +28,7 @@
           </div>
     </div>
     </div> 
-  <div class="column">
+  <div class="column is-half">
 <div class="card">
 <div class="header">
 <div class="circle">
@@ -49,8 +51,10 @@
     </div>
     </div>
   </div>
-  </div> 
-  <div class="columns">
+  </div>
+  
+<div class="container"> 
+<div class="columns">
 <div class="column is-half">
 <div class="card">
 <div class="header">
@@ -73,7 +77,7 @@
           </div>
     </div>
     </div> 
-  <div class="column">
+  <div class="column is-half">
 <div class="card">
 <div class="header">
 <div class="circle">
@@ -95,6 +99,7 @@
           </div>
     </div>
     </div>
+  </div>
   </div>
   </div>
   <div class="container">
@@ -121,7 +126,7 @@
             </div>
       </div>
       </div> 
-  <div class="column">
+  <div class="column is-half">
   <div class="card">
   <div class="header">
   <div class="circle">
@@ -143,9 +148,9 @@
             </div>
       </div>
       </div>
-    </div>
-    </div>
-    <div class="container">
+   </div>
+</div>
+<div class="container">
   <div class="columns">
   <div class="column is-half">
   <div class="card">
@@ -169,7 +174,295 @@
             </div>
       </div>
       </div> 
-  <div class="column">
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </div>
+    </div>
+<div class="container">
+  <div class="columns">
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div> 
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </div>
+    </div>
+<div class="container">
+  <div class="columns">
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div> 
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </div>
+    </div>
+<div class="container">
+  <div class="columns">
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div> 
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </div>
+    </div>
+<div class="container">
+  <div class="columns">
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div> 
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </div>
+    </div>
+<div class="container">
+  <div class="columns">
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div> 
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </div>
+    </div>
+<div class="container">
+  <div class="columns">
+  <div class="column is-half">
+  <div class="card">
+  <div class="header">
+  <div class="circle">
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
+      xml:space="preserve">  
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </div>
+  </div>              
+  <div class="card-body">
+              <div class="user-meta has-text-centered">
+                <h3 class="username">Helen Miller</h3>
+                <h5 class="position">Accountant</h5>
+              </div>
+              <div class="user-bio has-text-centered">
+                <p>Helen Miller is an accountant at the Acme Inc comany. She works very hard.</p>
+              </div>
+            </div>
+      </div>
+      </div> 
+  <div class="column is-half">
   <div class="card">
   <div class="header">
   <div class="circle">
@@ -217,11 +510,11 @@
             </div>
       </div>
       </div> 
-  <div class="column">
+  <div class="column is-half">
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="~assets/yesha.jpg" alt="" />
+    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -256,6 +549,7 @@ body{
   align-items:center;
   justify-content:center;
   height:100vh;
+  
 }
 .circle{
   position:relative;
@@ -304,9 +598,10 @@ $muted: #999;
 }
 
 .section {
-  background-color: $section;
+  background-color:transparent;
   min-height: 300vh;
   position: relative;
+  
   .card {
     border-radius: 6px;
     overflow:hidden;
@@ -316,7 +611,7 @@ $muted: #999;
     .header {
       display: flex;
       height: 150px;
-      background: #ffffff;
+      background:black;
       justify-content: center;
       align-items: center;
       .avatar {
@@ -335,6 +630,7 @@ $muted: #999;
     }
     .card-body {
       padding: 30px;
+      background-color:transparent;
       .user-meta {
         padding-top: 20px;
         .username {
@@ -343,21 +639,21 @@ $muted: #999;
         }
         .position {
           font-size: 90%;
-          color: $primary;
+          color: black;
         }
       }
     }
     .user-bio {
       padding-top: 8px;
       font-size: 92%;
-      color: $muted;
+      color:black;
     }
     .action {
       padding-top: 20px;
       .button {
         padding: 16px 20px 16px 20px;
-        background: $primary;
-        border-color: $primary;
+        background: black;
+        border-color: black;
         color: white;
         border-radius: 100px;
         transition: opacity .3s;

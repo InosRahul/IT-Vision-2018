@@ -1,7 +1,7 @@
 {
-  "name": "sample",
+  "name": "it-vision-2018",
   "version": "1.0.0",
-  "description": "My lovely Nuxt.js project",
+  "description": "Website of IT department for Vision 2018",
   "author": "Rahul Soni",
   "private": true,
   "scripts": {
@@ -12,9 +12,12 @@
   },
   "dependencies": {
     "@nuxtjs/bulma": "^1.0.3",
+    "@nuxtjs/dotenv": "^1.1.1",
+    "@nuxtjs/onesignal": "^2.4.0",
     "@nuxtjs/pwa": "^2.0.8",
     "css-loader": "^1.0.0",
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "vue2-flip-countdown": "^0.3.2"
   },
   "devDependencies": {
     "cross-env": "^5.0.1",
