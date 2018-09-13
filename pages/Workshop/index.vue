@@ -1,10 +1,10 @@
 <<template>
   <section class="hero">
     
-  <span><nuxt-link class="link1" to="/space"><img src="~assets/7.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/"><img src="~assets/7.jpg"></nuxt-link></span>
 
  <section class="hero">
-  <span><nuxt-link class="link1" to="/space"><img src="~assets/8.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/"><img src="~assets/8.jpg"></nuxt-link></span>
 </section>
  
 </section>
