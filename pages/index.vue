@@ -14,6 +14,12 @@
 <nuxt-link class="button--green" to="/team" style="margin-left: 10px;">Our Team</nuxt-link>
 </div>
 </section>
+<section>
+  <div class="bt1">
+<nuxt-link class="button--green" to="/test1">CountDown</nuxt-link>
+
+</div>
+</section>
     </section>
 </template>>
 
@@ -34,9 +40,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 100px;
-  margin-bottom: 50px;
-  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
   
 
 }
