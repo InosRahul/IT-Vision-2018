@@ -11,7 +11,7 @@
 <section>
   <div class="bt1">
 <nuxt-link class="button--green" to="/events">Explore Events</nuxt-link>
-<nuxt-link class="button--green" to="/team">Our Team</nuxt-link>
+<nuxt-link class="button--green" to="/team" style="margin-left: 10px;">Our Team</nuxt-link>
 </div>
 </section>
     </section>
@@ -26,7 +26,7 @@ body {
   height: 100%;
   display: flex;
   background-color: black;
-}
+} 
 .hero{
   background-color: black;
 }
@@ -36,6 +36,8 @@ body {
   align-items: center;
   padding-bottom: 100px;
   margin-bottom: 50px;
+  padding-top: 15px;
+  
 
 }
 span {
