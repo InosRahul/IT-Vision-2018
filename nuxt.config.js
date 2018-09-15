@@ -70,9 +70,7 @@ module.exports = {
       appId: '60ca73b3-a80c-4028-a782-df0034adf02e',
       allowLocalhostAsSecureOrigin: true,
       persistNotification: true,
-      welcomeNotification: {
-          disable: false
-      }
+      welcomeNotification: true,
     }
   },
   
