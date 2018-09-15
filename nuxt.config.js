@@ -61,14 +61,17 @@ module.exports = {
   },
   meta:{
     name: "IT VISION 2018",
+    nativeUI: true,
+    favicon: true,
   },
   
   oneSignal: {
     init: {
-      appId: 'YOUR_APP_ID',
+      appId: process.env.ONESIGNALKEY,
       allowLocalhostAsSecureOrigin: true,
+      persistNotification: true,
       welcomeNotification: {
-          disable: true
+          disable: false
       }
     }
   },

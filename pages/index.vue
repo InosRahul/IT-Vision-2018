@@ -6,7 +6,7 @@
   
 </div>
 <section>
-  <span><img src="~static/icon.png"></span>
+  <span><img src="~assets/logo.png"></span>
   </section>
 <section>
   <div class="bt1">
