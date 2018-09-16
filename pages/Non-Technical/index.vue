@@ -1,13 +1,13 @@
 <<template>
   <section class="hero">
     
-  <span><nuxt-link class="link1" to="/"><img src="~assets/4.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/nontech1"><img src="~assets/4.jpg"></nuxt-link></span>
 
  <section class="hero">
-  <span><nuxt-link class="link1" to="/"><img src="~assets/5.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/nontech2"><img src="~assets/5.jpg"></nuxt-link></span>
 </section>
  <section class="hero">
-  <span><nuxt-link class="link1" to="/"><img src="~assets/6.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/nontech3"><img src="~assets/6.jpg"></nuxt-link></span>
 </section>
 </section>
 
