@@ -134,7 +134,7 @@ section {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 350px;
+  height: 650px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
