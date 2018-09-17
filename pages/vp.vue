@@ -10,7 +10,9 @@
   <label for="toggle">About</label>
   <div id="expand">
     <section>
-        <p></p>
+       <p>
+        This event gives you a real life experience of job interviews and fundamentals about placements.
+        </p>
       </section>
   </div>
   </div>
@@ -128,13 +130,13 @@ section {
   padding: 0 20px;
 }
 #toggle:checked ~ #expand {
-  height: 350px;
+  height: 50px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 650px;
+  height: 250px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -145,6 +147,35 @@ section {
 #toggle2:checked ~ label::before {
   content: "-";
 }
+@media only screen and (max-width: 500px){
+  #toggle:checked ~ #expand {
+  height: 100px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+#toggle1:checked ~ #expand {
+  height: 460px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
 
+}
+@media only screen and (max-width: 360px){
+  #toggle:checked ~ #expand {
+  height: 100px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+#toggle1:checked ~ #expand {
+  height: 570px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+}
 </style>
 >
