@@ -165,7 +165,7 @@ section {
 }
 @media only screen and (max-width: 375px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 150px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -180,7 +180,7 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 180px;
 }
 #toggle:checked ~ label::before {
   content: "-";

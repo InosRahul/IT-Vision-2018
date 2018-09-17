@@ -162,9 +162,24 @@ section {
 }
 
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 375px){
   #toggle:checked ~ #expand {
   height: 100px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+#toggle1:checked ~ #expand {
+  height: 570px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+}
+@media only screen and (max-width: 330px){
+  #toggle:checked ~ #expand {
+  height: 150px;
 }
 #toggle:checked ~ label::before {
   content: "-";

@@ -177,13 +177,13 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 150px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 850px;
+  height: 870px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
