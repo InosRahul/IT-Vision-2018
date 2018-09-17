@@ -143,6 +143,51 @@ section {
 #toggle2:checked ~ label::before {
   content: "-";
 }
+@media only screen and (max-width: 420px){
+  #toggle:checked ~ #expand {
+  height: 100px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+#toggle1:checked ~ #expand {
+  height: 630px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+}
+@media only screen and (max-width: 375px){
+  #toggle:checked ~ #expand {
+  height: 100px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+#toggle1:checked ~ #expand {
+  height: 700px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+}
+@media only screen and (max-width: 330px){
+  #toggle:checked ~ #expand {
+  height: 150px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+#toggle1:checked ~ #expand {
+  height: 870px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+}
 
 </style>
 >

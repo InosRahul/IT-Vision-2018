@@ -147,7 +147,7 @@ section {
 #toggle2:checked ~ label::before {
   content: "-";
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 420px){
   #toggle:checked ~ #expand {
   height: 100px;
 }
