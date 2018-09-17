@@ -20,14 +20,14 @@
   <div id="expand">
     <section>
         <ol>
-              <li>Decision taken by coordinators is final.</li>
-              <li>Participants are not allowed to use cell phone during the event.</li></br>
-              <p><b>Round 1 -</b><i>Tech Bet</i></br>
-                This round has 2 phases, first is to answer the correct answers of respective questions done by one of the member of pair and other phase contains of betting on that questions whether his/her partner will give correct answer of that respective question or not.</br>
-                <b>Round 2 –</b><i>Connexion</i></br>
-                In this round, participants will be given any random alphabet with which they have to decode binary code and accordingly guess the jumbled word related to that decoded binary number. </br>
-                <b>Round 3-</b><i> CODE AND SWITCH</i><br>
-               Surprise round.</br>
+              <li>Resume is compulsory for the candidates appearing for personal interview.</li>
+              <li>Decision taken by Faculties and coordinators is final.</li></br>
+              <p><b>Round 1 -</b><i>Aptitude Test</i></br>
+                Candidates will be tested on the basis of their logic & reasoning skills and basic aptitude.</br>
+                <b>Round 2 –</b><i>Group Discussion</i></br>
+                Candidates will have to discuss about a certain topic in a group.</br>
+                <b>Round 3-</b><i>Personal Interview</i><br>
+                Faculties will conduct personal interviews of the selected candidates.</br>
               </p>
             </ol>
       </section>
