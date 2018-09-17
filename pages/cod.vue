@@ -180,7 +180,7 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 180px;
+  height: 200px;
 }
 #toggle:checked ~ label::before {
   content: "-";
