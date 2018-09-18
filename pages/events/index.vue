@@ -6,7 +6,7 @@
 
 <section class="skewed">
   
-  <span><nuxt-link class="link2" to="/Non-Technical">Non-Technical</nuxt-link></span>
+  <span><nuxt-link class="link2" to="/Non-Technical">Non-Tech</nuxt-link></span>
   
 </section>
 
