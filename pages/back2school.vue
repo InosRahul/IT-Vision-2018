@@ -41,6 +41,8 @@
   <label for="toggle2">Contact</label>
   <div id="expand">
     <section>
+      <li>Priten Padhiyar: +917405915465</li>
+      <li>Jigar Rabadiya: +918238431186 </li>
      </section>
   </div>
   </div>
@@ -94,6 +96,7 @@ ol{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 li{
+  font-size: 18px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 input {
@@ -148,7 +151,7 @@ section {
   content: "-";
 }
 #toggle2:checked ~ #expand {
-  height: 250px;
+  height: 100px;
 }
 #toggle2:checked ~ label::before {
   content: "-";

@@ -40,6 +40,8 @@
   <label for="toggle2">Contact</label>
   <div id="expand">
     <section>
+      <li>Kartik Dambre: +919714384229</li>
+      <li>Sachin Devdhar: +917574832178</li>
       </section>
   </div>
   </div>
@@ -91,6 +93,7 @@ p {
 }
 li{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
 ol{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -149,7 +152,7 @@ section {
   content: "-";
 }
 #toggle2:checked ~ #expand {
-  height: 350px;
+  height: 100px;
 }
 #toggle2:checked ~ label::before {
   content: "-";

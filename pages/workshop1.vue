@@ -47,11 +47,9 @@
   <label for="toggle2">Contact</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+       <li>Sachin Devdhar: +917574832178</li>
+      <li>Rahul Soni: +919638004084</li>
+     </section>
   </div>
   </div>
   </div>
@@ -162,14 +160,14 @@ section {
   content: "-";
 }
 #toggle2:checked ~ #expand {
-  height: 250px;
+  height: 100px;
 }
 #toggle2:checked ~ label::before {
   content: "-";
 }
 @media only screen and (max-width: 420px){
   #toggle:checked ~ #expand {
-  height: 850px;
+  height: 450px;
 }
 #toggle:checked ~ label::before {
   content: "-";

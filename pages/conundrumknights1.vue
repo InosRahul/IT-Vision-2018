@@ -43,6 +43,8 @@
   <label for="toggle2">Contact</label>
   <div id="expand">
     <section>
+      <li>Rajan Bhatt: +919714763660</li>
+      <li>Rahul Soni: +919638004085</li>
       </section>
   </div>
   </div>
@@ -94,6 +96,7 @@ p {
 }
 li{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
 ol{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -150,7 +153,7 @@ section {
   content: "-";
 }
 #toggle2:checked ~ #expand {
-  height: 250px;
+  height: 100px;
 }
 #toggle2:checked ~ label::before {
   content: "-";

@@ -43,6 +43,11 @@
   <label for="toggle2">Contact</label>
   <div id="expand">
     <section>
+      <li>Priten Padhiyar: +917405915465
+         </li>
+         <li>Sanket: +918980566348
+         </li>
+
      </section>
   </div>
   </div>
@@ -97,6 +102,7 @@ ol{
 }
 li{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
 input {
   display: none;
@@ -150,7 +156,7 @@ section {
   content: "-";
 }
 #toggle2:checked ~ #expand {
-  height: 250px;
+  height: 100px;
 }
 #toggle2:checked ~ label::before {
   content: "-";
