@@ -11,7 +11,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+  <img src="~assets/bhavya.jpg" alt="" />
   <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
      xml:space="preserve">  
     <circle cx="50" cy="50" r="40" />
@@ -32,7 +32,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+  <img src="~assets/zaheet.jpg" alt="" />
   <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
      xml:space="preserve">  
     <circle cx="50" cy="50" r="40" />
@@ -53,7 +53,7 @@
 <div class="card">
 <div class="header">
 <div class="circle">
-  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+  <img src="~assets/dhwani.jpg" alt="" />
   <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
      xml:space="preserve">  
     <circle cx="50" cy="50" r="40" />
@@ -79,7 +79,7 @@
 <div class="card">
 <div class="header">
 <div class="circle">
-  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+  <img src="~assets/sachin.jpg" alt="" />
   <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
      xml:space="preserve">  
     <circle cx="50" cy="50" r="40" />
@@ -100,7 +100,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-  <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+  <img src="~assets/parthvi.jpg" alt="" />
   <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
      xml:space="preserve">  
     <circle cx="50" cy="50" r="40" />
@@ -147,7 +147,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/ketki.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -167,7 +167,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/harshil.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -192,7 +192,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/jay.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -212,7 +212,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/tarang.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -257,7 +257,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/harsh.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -277,7 +277,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/manthan.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -302,7 +302,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/snehil.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -342,7 +342,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/punit.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -367,7 +367,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/karan.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -376,7 +376,7 @@
   </div>              
   <div class="card-body">
               <div class="user-meta has-text-centered">
-                <h3 class="username">Karan Matroja</h3>
+                <h3 class="username">Karansinh Matroja</h3>
                 <h5 class="position">Decoration Head</h5>
               </div>
               
@@ -387,7 +387,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/devangini.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />
@@ -478,7 +478,7 @@
   <div class="card">
   <div class="header">
   <div class="circle">
-    <img src="https://image.ibb.co/fa2YRF/dounia.jpg" alt="" />
+    <img src="~assets/harsh2.jpg" alt="" />
     <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
       xml:space="preserve">  
       <circle cx="50" cy="50" r="40" />

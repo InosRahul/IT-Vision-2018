@@ -5,10 +5,10 @@
   <span><nuxt-link class="link1" to="/vp"><img src="~assets/2.jpg"></nuxt-link></span>
 
  <section class="hero">
-  <span><nuxt-link class="link1" to="/conundrumknights"><img src="~assets/1.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/conundrumknights1"><img src="~assets/1.jpg"></nuxt-link></span>
 </section>
  <section class="hero">
-  <span><nuxt-link class="link1" to="/cod"><img src="~assets/3.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/cod1"><img src="~assets/3.jpg"></nuxt-link></span>
 </section>
 </section>
 

@@ -10,11 +10,10 @@
   <label for="toggle">About</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+         <p>
+            This event is based on Business strategy and Marketing techniques. This event will help you to polish your Promotion as well as Selling skills. It will also give you the experience of Field work in Marketing Area. The Winner as well as Participants of this event will get an ISTE Certificate.
+          </p>
+     </section>
   </div>
   </div>
   <div>
@@ -22,11 +21,19 @@
   <label for="toggle1">Rules</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+         <ol>
+            <li>Participants must be on time.</li>
+            <li>Vulgar and unruly behavior will not be tolerated.</li>
+            <li>Elimination is based on judging criteria.</li></br>
+            <p><b>Round 1 - Biz Quiz</b><i></i></br>
+              The Excitement of this even will start form Mind Game. Here one slide show will be shown to the participants and regarding to that slideshow questions will be asked. It will be pen-paper based task.</br>
+              <b>Round 2 – Monopoly</b><i></i></br>
+              In second round a kit will be provided to the participants. The participants have to sell the items provided in that kit with maximum profit. This round evaluates the convincing and bargaining skills of the participants.</br>
+              <b>Round 3- Market Maniac</b><i></i><br>
+               Surprise Round (Hint :- Live Marketing).</br>
+            </p>
+          </ol>
+     </section>
   </div>
   </div>
   <div>
@@ -126,13 +133,13 @@ section {
   padding: 0 20px;
 }
 #toggle:checked ~ #expand {
-  height: 250px;
+  height: 100px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 250px;
+  height: 350px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -145,13 +152,13 @@ section {
 }
 @media only screen and (max-width: 420px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 280px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 460px;
+  height: 660px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -160,13 +167,13 @@ section {
 }
 @media only screen and (max-width: 375px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 300px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 570px;
+  height: 750px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -175,13 +182,13 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 150px;
+  height: 360px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 570px;
+  height: 830px;
 }
 #toggle1:checked ~ label::before {
   content: "-";

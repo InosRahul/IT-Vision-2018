@@ -11,7 +11,7 @@
   <div id="expand">
     <section>
         <p>
-            This event gives you a real life experience of job interviews and fundamentals about placements.
+            Test your partnership bonds with touch of Technology
          </p>
       </section>
   </div>

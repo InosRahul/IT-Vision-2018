@@ -2,7 +2,7 @@
     <section>
         <div class="span">
             
-            <img src="~assets/7.jpg" style="width=100%; height=100%;">
+            <img src="~assets/AADFF.jpg" style="width=100%; height=100%;">
         </div>
         <div>
          
@@ -10,23 +10,36 @@
   <label for="toggle">About</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+        <p>
+        <li> Latest trends in Android app development.</li>
+        <li>Learn from certified Google Android Developer.</li>
+        <li> Make your own Android application live in the workshop.</li>
+        <li>Get hands on experience with differnet types of apps.</li>
+        <li> Pioneers in Skill Based Training.</li>
+        <li> More than 3 years of Industry experience.</li>
+        <li>   Wide range of interactive training methodologies.</li>
+                  
+        </p>
+      </section>
   </div>
   </div>
   <div>
   <input id="toggle1" type="checkbox" unchecked>
-  <label for="toggle1">Rules</label>
+  <label for="toggle1">Profile</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+         <p>Sachin Dedhia is an independent Cyber Crime Investigator & also a Certified Ethical Hacker
+          (EC-Council,USA). Since many years he is working as a Cyber Crime Investigator and also as a
+          security expert for IT companies, Govt depts., Corporate’s & even individuals.
+          He has also provided trainings to Navi Mumbai cyber cell department & also assists the
+          Cyber Cell Departments of Mumbai Police with respect to their queries.
+          Since past few years, he has been successfully conducting various seminars & workshops
+          across numerous Schools, covered almost all the Colleges in Mumbai, Mumbai University,
+          various chartered accountants study circle meeting, Rotary clubs,hostipals & even Govt
+          depts.</p>
+        <p>Successfully conducted over 500 seminars & workshops across India, & enlightened over
+          10,000 participants</p>
+     </section>
   </div>
   </div>
   <div>
@@ -126,7 +139,9 @@ section {
   padding: 0 20px;
 }
 #toggle:checked ~ #expand {
-  height: 250px;
+  height:180px;
+  margin-right: 5px;
+  padding-left: 10px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -145,13 +160,13 @@ section {
 }
 @media only screen and (max-width: 420px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 850px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 460px;
+  height: 800px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -160,13 +175,13 @@ section {
 }
 @media only screen and (max-width: 375px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 990px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 570px;
+  height: 820px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -175,13 +190,13 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 150px;
+  height: 1200px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 570px;
+  height: 1110px;
 }
 #toggle1:checked ~ label::before {
   content: "-";

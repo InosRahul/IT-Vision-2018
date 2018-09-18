@@ -10,11 +10,10 @@
   <label for="toggle">About</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+      <p>
+        Wisdom begins in Wonder.
+        </p>
+      </section>
   </div>
   </div>
   <div>
@@ -22,11 +21,19 @@
   <label for="toggle1">Rules</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+      <ol>
+            <li>Participants must be on time.</li>
+            <li>Vulgar and unruly behavior will not be tolerated.</li>
+            <li>Elimination is based on judging criteria.</li></br>
+            <p><b>Round 1 - Car-Tunes</b><i></i></br>
+              Listen to the song/tune and guess the cartoon character.</br>
+              <b>Round 2 – BBS</b><i></i></br>
+              In this round each member will be provided with a list of items. The members can Beg, Borrow or Steal the items from the college campus that are given in the list.</br>
+              <b>Round 3- Last Race</b><i></i><br>
+               In this round, players will be divided into team of 2. There will be fun games like sack race, obstacles which will make you nostalgic.</br>
+            </p>
+          </ol>
+      </section>
   </div>
   </div>
   <div>
@@ -34,11 +41,7 @@
   <label for="toggle2">Contact</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+     </section>
   </div>
   </div>
   </div>
@@ -126,13 +129,13 @@ section {
   padding: 0 20px;
 }
 #toggle:checked ~ #expand {
-  height: 250px;
+  height: 50px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 250px;
+  height: 350px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -145,13 +148,13 @@ section {
 }
 @media only screen and (max-width: 420px){
   #toggle:checked ~ #expand {
-  height: 100px;
+  height: 50px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 650px;
+  height: 550px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -160,7 +163,7 @@ section {
 }
 @media only screen and (max-width: 375px){
   #toggle:checked ~ #expand {
-  height: 150px;
+  height: 50px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -175,13 +178,13 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 180px;
+  height: 60px;
 }
 #toggle:checked ~ label::before {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 770px;
+  height: 720px;
 }
 #toggle1:checked ~ label::before {
   content: "-";

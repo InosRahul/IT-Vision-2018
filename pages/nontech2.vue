@@ -10,11 +10,8 @@
   <label for="toggle">About</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+      Face the ultimate extremities using your mind, phyiscal strength and luck.
+     </section>
   </div>
   </div>
   <div>
@@ -22,11 +19,19 @@
   <label for="toggle1">Rules</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+         <ol>
+            <li>Participants must be on time.</li>
+            <li>Vulgar and unruly behavior will not be tolerated.</li>
+            <li>Elimination is based on judging criteria.</li></br>
+            <p><b>Round 1 - Climb your mind</b><i></i></br>
+              This round would be a pen paper based test. You would be given ruiddles, mysteries, IQ questions that are to be solved in given amount of time.</br>
+              <b>Round 2 – Conquer your kingdom</b><i></i></br>
+              This round would be based on physical task. The participants would be divided into a group's of 3-4 and would have to complete a series of tasks, judging criteria would be time based.</br>
+              <b>Round 3- Survive the Ultimate</b><i></i><br>
+               Surprise Round (Based on Luck, Mental ability and Physical Strength.)</br>
+            </p>
+          </ol>
+      </section>
   </div>
   </div>
   <div>
@@ -34,11 +39,7 @@
   <label for="toggle2">Contact</label>
   <div id="expand">
     <section>
-      <p>mew</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta non turpis faucibus lobortis. Curabitur non eros rutrum, gravida felis non, luctus velit. Ut commodo congue velit feugiat lobortis. Etiam nec dolor quis nulla bibendum blandit vitae nec enim. Maecenas id dignissim erat. Aenean ac mi nec ante venenatis interdum quis vel lacus.
-    </p>
-    <p>Aliquam ligula est, aliquet et semper vitae, elementum eget dolor. In ut dui id leo tristique iaculis eget a dui. Vestibulum cursus, dolor sit amet lacinia feugiat, turpis odio auctor nisi, quis pretium dui elit at est. Pellentesque lacus risus, vulputate sed gravida eleifend, accumsan ac ante. Donec accumsan, augue eu congue condimentum, erat magna luctus diam, adipiscing bibendum sem sem non elit.</p>
-    </section>
+     </section>
   </div>
   </div>
   </div>
@@ -132,7 +133,7 @@ section {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 250px;
+  height: 350px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
