@@ -10,7 +10,9 @@
   <label for="toggle">About</label>
   <div id="expand">
     <section>
+      <p>
       Face the ultimate extremities using your mind, phyiscal strength and luck.
+      </p>
      </section>
   </div>
   </div>
@@ -19,6 +21,7 @@
   <label for="toggle1">Rules</label>
   <div id="expand">
     <section>
+      
          <ol>
             <li>Participants must be on time.</li>
             <li>Vulgar and unruly behavior will not be tolerated.</li>
@@ -31,6 +34,7 @@
                Surprise Round (Based on Luck, Mental ability and Physical Strength.)</br>
             </p>
           </ol>
+          
       </section>
   </div>
   </div>
@@ -86,6 +90,13 @@ h2 {
 }
 p {
   font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+ol{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 input {
   display: none;
@@ -127,7 +138,7 @@ section {
   padding: 0 20px;
 }
 #toggle:checked ~ #expand {
-  height: 250px;
+  height: 50px;
 }
 #toggle:checked ~ label::before {
   content: "-";

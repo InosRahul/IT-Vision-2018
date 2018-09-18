@@ -43,7 +43,7 @@
         <p>BIT(Baroda Institute of Technology) incorporated in the year 2002 with an aim to endow Job aspirants and professionals with 
             necessary skills to excel in their field by giving them quality training at par with industry standards. The promoters of the 
             company had been into training services for more than a decade, their experience and expertise have paved the way for the company to develop and grow into further branches
-        </script>
+        
         .</p>
         
       </section>
@@ -105,6 +105,7 @@ h2 {
 }
 p {
   font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 input {
   display: none;

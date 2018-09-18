@@ -64,12 +64,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body {
-  font-family: "Open Sans", Arial;
-  background: #CCC;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  background: grey;
   justify-content: center;
 }
 main {
-  background: #EEE;
+  background: gray;
   width: 600px;
   margin: 20px auto;
   padding: 10px 0;
@@ -98,6 +99,8 @@ h2 {
 }
 p {
   font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
 }
 input {
   display: none;
@@ -134,9 +137,15 @@ label::before {
   
   
 }
+li{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
 
 section {
   padding: 0 20px;
+  background-color: #e3e3e3;
 }
 #toggle:checked ~ #expand {
   height:180px;
@@ -175,7 +184,7 @@ section {
 }
 @media only screen and (max-width: 375px){
   #toggle:checked ~ #expand {
-  height: 990px;
+  height: 450px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -190,7 +199,7 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 1200px;
+  height: 550px;
 }
 #toggle:checked ~ label::before {
   content: "-";
