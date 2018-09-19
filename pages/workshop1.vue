@@ -10,38 +10,33 @@
   <label for="toggle">About</label>
   <div id="expand">
     <section>
-        <p>
-        <li> Latest trends in Android app development.</li>
-        <li>Learn from certified Google Android Developer.</li>
-        <li> Make your own Android application live in the workshop.</li>
-        <li>Get hands on experience with differnet types of apps.</li>
-        <li> Pioneers in Skill Based Training.</li>
-        <li> More than 3 years of Industry experience.</li>
-        <li>   Wide range of interactive training methodologies.</li>
-                  
-        </p>
+       <p>
+         Session-1(10:00 am - 12:30 pm)
+         <ol>
+           <li>	Basics of android.</li>
+	<li>Basics of android studio.</li>
+	<li>Login Page app(Intent)</li>
+      <li>Simple login page app, which will signup and login a user.
+        Ask for passwords and email and username.
+</li>
+           </ol> 
+          Session-2(1:00 pm - 3:00 pm)
+          <ol>
+            <li>	Alert dialog app
+(If password is incorrect for more than 3 times, than alert dialog will be shown.)</li>
+<li>	Web view app. (Connects the application with a particular website.)</li>
+	<li>App deployment basics.(Deploy the app on to the Google Playstore)</li>
+
+<li>	Query Solving
+(Question and answer sessions for the students.)</li>
+
+</li>
+            </ol> 
+       </p>
       </section>
   </div>
   </div>
-  <div>
-  <input id="toggle1" type="checkbox" unchecked>
-  <label for="toggle1">Profile</label>
-  <div id="expand">
-    <section>
-         <p>Sachin Dedhia is an independent Cyber Crime Investigator & also a Certified Ethical Hacker
-          (EC-Council,USA). Since many years he is working as a Cyber Crime Investigator and also as a
-          security expert for IT companies, Govt depts., Corporate’s & even individuals.
-          He has also provided trainings to Navi Mumbai cyber cell department & also assists the
-          Cyber Cell Departments of Mumbai Police with respect to their queries.
-          Since past few years, he has been successfully conducting various seminars & workshops
-          across numerous Schools, covered almost all the Colleges in Mumbai, Mumbai University,
-          various chartered accountants study circle meeting, Rotary clubs,hostipals & even Govt
-          depts.</p>
-        <p>Successfully conducted over 500 seminars & workshops across India, & enlightened over
-          10,000 participants</p>
-     </section>
-  </div>
-  </div>
+  
   <div>
   <input id="toggle2" type="checkbox" unchecked>
   <label for="toggle2">Contact</label>
@@ -64,11 +59,11 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
-  background: grey;
+  background:#CCC;
   justify-content: center;
 }
 main {
-  background: gray;
+  background:#EEE;
   width: 600px;
   margin: 20px auto;
   padding: 10px 0;
@@ -143,10 +138,10 @@ li{
 
 section {
   padding: 0 20px;
-  background-color: #e3e3e3;
+  
 }
 #toggle:checked ~ #expand {
-  height:180px;
+  height:320px;
   margin-right: 5px;
   padding-left: 10px;
 }
@@ -167,7 +162,7 @@ section {
 }
 @media only screen and (max-width: 420px){
   #toggle:checked ~ #expand {
-  height: 450px;
+  height: 530px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -182,7 +177,7 @@ section {
 }
 @media only screen and (max-width: 375px){
   #toggle:checked ~ #expand {
-  height: 450px;
+  height: 730px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -197,7 +192,7 @@ section {
 }
 @media only screen and (max-width: 330px){
   #toggle:checked ~ #expand {
-  height: 550px;
+  height: 730px;
 }
 #toggle:checked ~ label::before {
   content: "-";
@@ -206,6 +201,12 @@ section {
   height: 1110px;
 }
 #toggle1:checked ~ label::before {
+  content: "-";
+}
+#toggle2:checked ~ #expand {
+  height: 150px;
+}
+#toggle2:checked ~ label::before {
   content: "-";
 }
 
