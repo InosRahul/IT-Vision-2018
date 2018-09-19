@@ -1,7 +1,7 @@
 <<template>
   <section class="hero">
     
-  <span><nuxt-link class="link1" to="/workshop1"><img src="~assets/AADFF.jpg"></nuxt-link></span>
+  <span><nuxt-link class="link1" to="/workshop1"><img src="~assets/AADF.jpg"></nuxt-link></span>
 
  <section class="hero">
   <span><nuxt-link class="link1" to="/workshop2"><img src="~assets/EHSS.jpg"></nuxt-link></span>

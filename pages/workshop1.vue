@@ -2,7 +2,7 @@
     <section>
         <div class="span">
             
-            <img src="~assets/AADFF.jpg" style="width=100%; height=100%;">
+            <img src="~assets/AADF.jpg" style="width=100%; height=100%;">
         </div>
         <div>
          
