@@ -43,6 +43,33 @@ h1.retroshadow {
   letter-spacing: 0.05em;
   text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
-
+@media only screen and (max-width: 420px){
+  h1{
+    font-size: 50px;
+    
+  }
+  
+}
+@media only screen and (max-width: 360px){
+  h1{
+    font-size: 40px;
+    
+  }
+  
+}
+@media only screen and (max-width: 375px){
+  h1{
+    font-size: 45px;
+    
+  }
+  
+}
+@media only screen and (max-width: 330px){
+  h1{
+    font-size: 38px;
+    
+  }
+  
+}
 </style>
 >
