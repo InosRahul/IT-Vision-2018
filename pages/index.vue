@@ -17,7 +17,7 @@
 
 <div>
     <no-ssr>
-      <flip-countdown deadline="2018-09-20 00:00:00"></flip-countdown>
+      <flip-countdown deadline="2018-09-28 00:00:00"></flip-countdown>
     </no-ssr>
   </div>
     </section>
