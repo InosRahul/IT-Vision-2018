@@ -131,7 +131,7 @@
 <div class="card-body">
             <div class="user-meta has-text-centered">
               <h3 class="username">Rahul Soni</h3>
-              <h5 class="position">Technical Joint Head</h5>
+              <h5 class="position">Joint Technical Head</h5>
             </div>
             
           </div>
