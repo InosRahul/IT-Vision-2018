@@ -32,7 +32,5 @@ span {
   align-items: center;
 
 }
-
-
-
 </style>
+

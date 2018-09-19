@@ -1,4 +1,5 @@
 <<template>
+<section>
     <div class="main">
  <!--
   <div class="__content">
@@ -11,7 +12,7 @@
     <div class="outer animate-3">
       <div class="inner animate-2">
         <div class="within animate-1">
-           <nuxt-link class="navbar-item" target="_blank" to="/">Home</nuxt-link>
+           <nuxt-link class="navbar-item" target="_blank" to="/" style="font-size: 16px; color:green">Launch Vision</nuxt-link>
           
           
           
@@ -21,8 +22,21 @@
       </div>
     </div>
   </label>
-  
+ 
 </div>
+<section>
+ <div>
+   
+    <no-ssr>
+      <flip-countdown deadline="2018-09-20 11:45:00"></flip-countdown>
+      
+    </no-ssr>
+    
+  </div>
+  
+</section>
+
+</section>
 </template>>
 
 <style lang="scss" scoped>
@@ -101,6 +115,8 @@ $test-color: transparentize($wisteria, .9);
   top: 0;
   z-index: 3;
 }
+
+
 
 //@include animate; anywhere for animation
 @mixin animate {
@@ -236,7 +252,7 @@ $green: $nephritis;
 $red: #f70048;
 
 .main {
-  background: #111;
+  background: #CCC;
   
   color: $red;
   align-items: center;
@@ -247,13 +263,13 @@ $red: #f70048;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 8rem;
-    min-width: 8rem;
+    min-height: 12rem;
+    min-width: 12rem;
     
     i {
       position: absolute;
       opacity: 0;
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
   
@@ -297,7 +313,7 @@ $red: #f70048;
       content: 'whatshot';
       display: flex;     
       height: 100%;
-      width: 100%;
+      width: 200%;
       border-radius: 100%;
       background: $red;
       filter: blur(20px);
@@ -415,5 +431,25 @@ $red: #f70048;
   }
 }
 
+</style>
+>
+<script>
+  import FlipCountdown from 'vue2-flip-countdown'
+
+  export default {
+      components: { FlipCountdown }
+  }
+</script>
+<style scoped>
+bt1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  
+
+}
 </style>
 >

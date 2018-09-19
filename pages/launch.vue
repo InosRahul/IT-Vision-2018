@@ -1,62 +1,31 @@
 <<template>
-  <section class="hero is-fullheight">
+<section class="hero is-fullheight">
+    <no-ssr>
+        <TheHeader />
+        </no-ssr>
     <div class="container">
   <div class="neon">IT Vision</div>
-  <div class="flux">2018 </div>
+  <div class="flux">Launch </div>
   
 </div>
-<section>
-  <span><img src="~assets/logo.png"></span>
-  <div class="h1" style="color: white;">
+<div class="h1" style="color: white;">
   INQUISITIVE SOULS. IGNITED MINDS
   </div>
-  </section>
-<section>
   <div class="bt1">
-<nuxt-link class="button--green" to="/events">Explore Events</nuxt-link>
-<nuxt-link class="button--green" to="/team" style="margin-left: 10px;">Our Team</nuxt-link>
-</div>
-</section>
+<nuxt-link class="button--green" to="/">Launch Vision</nuxt-link>
 
-<div>
-    <no-ssr>
-      <flip-countdown deadline="2018-09-28 00:00:00"></flip-countdown>
-    </no-ssr>
-  </div>
-    </section>
+</div>
+    
+</section>
 </template>>
 
 <style scoped>
-html,
-body {
-  margin: 5px;
-  padding-top: 10px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  background-color: black;
-} 
-.hero{
-  background-color: black;
-}
 .bt1{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  
-
-}
-span {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  padding-bottom: 130px;  
+  font-size: 25px;
 
 }
 .h1{
@@ -66,12 +35,20 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: italic;
-    padding-bottom: 5px;
+    font-style: italic
     
 }
-
-
+.launch{
+    padding-top: 50px;
+    
+    
+}
+body{
+    background-color: black;
+}
+.hero{
+    background-color: black;
+}
 @font-face {
   font-family: neon;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
@@ -140,22 +117,9 @@ span {
   }
 }
 
-@keyframes yourAnimation{
-    0%{
-        transform: rotate(xx) scale(0.2);
-        opacity: 0;
-        }
-    100%{
-        transform: scale(1) translateX(0) skewX(0);
-        opacity: 1;
-        }
-}
-
-.span{
-    animation: yourAnimation 3s forwards 0s linear;
-}
 </style>
 >
+
 <script>
   import FlipCountdown from 'vue2-flip-countdown'
 
