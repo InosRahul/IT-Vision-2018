@@ -147,7 +147,7 @@ section {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 330px;
+  height: 390px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -166,7 +166,7 @@ section {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 650px;
+  height: 700px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -181,7 +181,7 @@ section {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 660px;
+  height: 750px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
@@ -196,7 +196,7 @@ section {
   content: "-";
 }
 #toggle1:checked ~ #expand {
-  height: 770px;
+  height: 900px;
 }
 #toggle1:checked ~ label::before {
   content: "-";
