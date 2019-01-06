@@ -1,6 +1,6 @@
-# sample
+# IT Vision 2018
 
-> My lovely Nuxt.js project
+> Progressive Web Application for inter department festival
 
 ## Build Setup
 
