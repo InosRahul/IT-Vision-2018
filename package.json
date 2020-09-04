@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.0.1",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "nuxt-sass-resources-loader": "^2.0.2",
     "sass-loader": "^7.0.3",
     "vue-particles": "^1.0.9",
